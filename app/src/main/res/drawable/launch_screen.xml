@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+    <item android:drawable="@color/back"></item>
+    <item>
+        <bitmap android:src="@drawable/background" android:gravity="fill_horizontal|top"></bitmap>
+    </item>
+    <item android:width="250dp" android:height="250dp" android:drawable="@drawable/ic_logo" android:gravity="center"></item>
+</layer-list>

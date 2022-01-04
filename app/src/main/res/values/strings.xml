@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WSR</string>
+    <string name="onboadring_hello">Привет</string>
+    <string name="onboadring_main_text">Наслаждайся отборочными.\n
+        Будь внимателен.\n
+        Делай хорошо.</string>
+    <string name="onboadring_enter_accaunt">Войти в аккаунт</string>
+    <string name="onboadring_no_accaunt_text">Еще нет аккаунта?</string>
+    <string name="onboadring_register_text">Зарегестрируйтесь</string>
+    <string name="register_main_text">Тут будет\n регистрация</string>
+    <!--Login Activity -->
+    <string name="login_sign_in_text">Sign in</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Пароль</string>
+    <string name="login_register_text">Register</string>
+    <string name="login_profil_text">Профиль</string>
+    <!--Main Activity -->
+    <string name="main_return_text">С возвращением, </string>
+    <string name="main_question_text">Каким ты себя ощущаешь сегодня?</string>
+
+    <!--Quote-->
+    <string name="quote_more_details_text">подробнее</string>
+    <!--PhotoActivity -->
+    <string name="photo_delete_text">удалить</string>
+    <string name="photo_close_text">закрыть</string>
+</resources>

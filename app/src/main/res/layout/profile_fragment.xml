@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/ic_hamburger"></ImageView>
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_logo" />
+
+                <Button
+                    android:id="@+id/exitButton"
+                    android:text="exit"
+                    android:layout_width="45dp"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/alegreya_regular"
+                    android:textAllCaps="false"
+                    android:textFontWeight="500"
+                    android:background="#00000000"
+                    android:layout_height="45dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="30dp"
+                    android:outlineProvider="background"
+                    android:scaleType="centerCrop"></Button>
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/profilImageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/relLay"
+                android:background="@drawable/background_circle_image"
+                android:outlineProvider="background"
+                android:layout_marginTop="30dp"
+                android:scaleType="centerCrop"></ImageView>
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/alegreya_regular"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textFontWeight="500"
+                android:textSize="37sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/profilImageView"></TextView>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/photoPreviewContainer"
+                android:layout_width="match_parent"
+                app:layout_constraintTop_toBottomOf="@id/nameTextView"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginHorizontal="25dp"
+                android:layout_height="wrap_content"></LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>

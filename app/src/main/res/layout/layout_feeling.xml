@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/feelingImageView"
+        android:layout_width="72dp"
+        android:layout_height="75dp"
+        android:padding="15dp"
+        android:background="@drawable/background_feeling"></ImageView>
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/feelingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/alegreya_sans"
+        android:textColor="@color/white"
+        android:textFontWeight="400"
+        >
+    </TextView>
+</merge>
